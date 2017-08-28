@@ -1,0 +1,6 @@
+framework module Pods_ImageAdjusts_Example {
+  umbrella header "Pods-ImageAdjusts_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

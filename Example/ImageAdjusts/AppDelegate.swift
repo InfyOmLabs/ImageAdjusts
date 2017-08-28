@@ -13,9 +13,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        let firstScreen = FirstScreen(nibName: "FirstScreen", bundle: nil)
+        let navigationScreen = UINavigationController(rootViewController: firstScreen)
+        
+        navigationScreen.isNavigationBarHidden = true
+        window?.rootViewController = navigationScreen
+        
         return true
     }
 

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="AdjustImageView" customModule="ImageAdjust_Example" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="afd-Mp-lKX">
+                    <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FormatRotate" translatesAutoresizingMaskIntoConstraints="NO" id="43H-5K-EZ8">
+                            <rect key="frame" x="27" y="19" width="26" height="26"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="43H-5K-EZ8" secondAttribute="height" multiplier="1:1" id="OO2-UE-9mY"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wGp-4C-kmr">
+                            <rect key="frame" x="24.5" y="48" width="30.5" height="13.5"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="11"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="43H-5K-EZ8" firstAttribute="centerX" secondItem="afd-Mp-lKX" secondAttribute="centerX" id="3Md-lM-pne"/>
+                        <constraint firstItem="wGp-4C-kmr" firstAttribute="top" secondItem="43H-5K-EZ8" secondAttribute="bottom" constant="3" id="DbS-Fa-Gdm"/>
+                        <constraint firstItem="43H-5K-EZ8" firstAttribute="leading" secondItem="afd-Mp-lKX" secondAttribute="leading" constant="27" id="I4F-al-uyN"/>
+                        <constraint firstItem="wGp-4C-kmr" firstAttribute="centerX" secondItem="43H-5K-EZ8" secondAttribute="centerX" id="KXQ-iJ-nvS"/>
+                        <constraint firstItem="43H-5K-EZ8" firstAttribute="top" secondItem="afd-Mp-lKX" secondAttribute="top" constant="19" id="mlr-Gi-osE"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xuc-nC-fNR">
+                    <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="Xuc-nC-fNR" secondAttribute="height" multiplier="1:1" id="iei-xu-fQG"/>
+                    </constraints>
+                    <connections>
+                        <action selector="onEffectClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="EBc-VZ-5WN"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.1049871575" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Xuc-nC-fNR" secondAttribute="bottom" id="6hr-0F-vq7"/>
+                <constraint firstAttribute="trailing" secondItem="afd-Mp-lKX" secondAttribute="trailing" id="J5m-yY-XTo"/>
+                <constraint firstItem="afd-Mp-lKX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="fzs-yy-lkp"/>
+                <constraint firstItem="Xuc-nC-fNR" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="gvz-Jp-Uhj"/>
+                <constraint firstItem="Xuc-nC-fNR" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="kmC-MB-teL"/>
+                <constraint firstItem="afd-Mp-lKX" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="nlf-VU-EoD"/>
+                <constraint firstAttribute="bottom" secondItem="afd-Mp-lKX" secondAttribute="bottom" id="o2l-Fh-2D3"/>
+                <constraint firstAttribute="trailing" secondItem="Xuc-nC-fNR" secondAttribute="trailing" id="r8g-GG-bQK"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="effectNameLabel" destination="wGp-4C-kmr" id="pKV-zu-U8e"/>
+                <outlet property="iconImage" destination="43H-5K-EZ8" id="cQF-Ip-Qcs"/>
+                <outlet property="scaleView" destination="afd-Mp-lKX" id="SFn-P9-S9p"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="FormatRotate" width="24" height="24"/>
+    </resources>
+</document>

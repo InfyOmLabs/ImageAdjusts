@@ -1,0 +1,6 @@
+framework module ImageAdjusts {
+  umbrella header "ImageAdjusts-umbrella.h"
+
+  export *
+  module * { export * }
+}
