@@ -42,44 +42,44 @@ class AdjustImageView: UIView {
     }
     
     func getEffecString(name: Shades) -> String {
-        if name == .Brightness{
+        if name == .Brightness {
             return "Brightness"
         }
-        if name == .Saturation{
+        if name == .Saturation {
             return "Saturation"
         }
-        if name == .Contrast{
+        if name == .Contrast {
             return "Contrast"
         }
-        if name == .Sharpness{
+        if name == .Sharpness {
             return "Sharpness"
         }
-        if name == .Warmth{
+        if name == .Warmth {
             return "Warmth"
         }
-        if name == .Exposure{
+        if name == .Exposure {
             return "Exposure"
         }
-        if name == .Vibrance{
+        if name == .Vibrance {
             return "Vibrance"
         }
-        if name == .Highlights{
+        if name == .Highlights {
             return "Highlights"
         }
-        if name == .Shadows{
+        if name == .Shadows {
             return "Shadows"
         }
-        if name == .Tint{
+        if name == .Tint {
             return "Tint"
         }
-        if name == .Fade{
+        if name == .Fade {
             return "Fade"
         }
         return ""
     }
     
     func setDefaultView() {
-        UIView.animate(withDuration: 0.35){
+        UIView.animate(withDuration: 0.35) {
             self.iconImage.tintColor = UIColor.lightGray.withAlphaComponent(0.8)
             self.effectNameLabel.textColor = UIColor.lightGray.withAlphaComponent(0.8)
             self.scaleView.transform = .identity
@@ -87,7 +87,7 @@ class AdjustImageView: UIView {
     }
     
     @IBAction func onEffectClick(_ sender: Any) {
-        for view in (self.superview?.subviews)!{
+        for view in (self.superview?.subviews)! {
             if let View = view as? AdjustImageView {
                 View.setDefaultView()
             }
@@ -97,15 +97,15 @@ class AdjustImageView: UIView {
         self.selectEffectCallback!(effecString)
         if let View = self.superview as? UIStackView {
             if let view = View.superview as? UIScrollView {
-                UIView.animate(withDuration: 0.35, animations:  {
-                    if view.getWidth < View.getWidth{
-                        var position = self.startX - (view.getWidth / 2) +  (self.getWidth / 2) - 5
+                UIView.animate(withDuration: 0.35, animations: {
+                    if view.getWidth < View.getWidth {
+                        var position = self.startX - (view.getWidth / 2) + (self.getWidth / 2) - 5
                         if position + view.getWidth < View.getWidth && position > 0 {
                             view.contentOffset.x = position
-                        }else if position < 0 {
+                        } else if position < 0 {
                             position = 0
                             view.contentOffset.x = position
-                        }else if position + view.getWidth > View.getWidth{
+                        } else if position + view.getWidth > View.getWidth {
                             position = View.getWidth - view.getWidth
                             view.contentOffset.x = position
                         }

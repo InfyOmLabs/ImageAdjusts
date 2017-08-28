@@ -37,8 +37,9 @@ class FirstScreen: UIViewController {
     }
     
     @IBAction func onClickAdjust(_ sender: Any) {
+        
         if #available(iOS 9.0, *) {
-            let selectLayoutView = AdjustEditorView.create(image : self.editImageView.image!, frame : CGRect(x: 0, y: 0, width: getScreenWidth(), height: getScreenHeight()))
+            let selectLayoutView = AdjustEditorView.create(image : self.editImageView.image!)
             selectLayoutView.selectSaveImageCallback = { image in
                 self.setframeImageUI(image : image , isChanges : true)
             }

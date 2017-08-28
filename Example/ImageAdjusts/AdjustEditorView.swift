@@ -51,9 +51,9 @@ class AdjustEditorView: UIView ,UIGestureRecognizerDelegate {
         self.addGestures()
     }
     
-    static func create(image : UIImage, frame : CGRect) -> AdjustEditorView {
+    static func create(image : UIImage) -> AdjustEditorView {
         let selectView =  Bundle.main.loadNibNamed("AdjustEditorView", owner: self, options: nil)?[0] as! AdjustEditorView
-        selectView.viewFrame = frame
+        selectView.viewFrame = CGRect(x: 0, y: 0, width: getScreenWidth(), height: getScreenHeight())
         selectView.mainImage = image
         selectView.didInit()
         
