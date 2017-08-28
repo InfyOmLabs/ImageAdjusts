@@ -9,7 +9,7 @@
 import UIKit
 
 @available(iOS 9.0, *)
-class AdjustEditorView: UIView ,UIGestureRecognizerDelegate {
+class ImageAdjustView : UIView, UIGestureRecognizerDelegate {
     
     @IBOutlet var screenSortView: UIView!
     @IBOutlet var mainView: UIView!
@@ -51,8 +51,8 @@ class AdjustEditorView: UIView ,UIGestureRecognizerDelegate {
         self.addGestures()
     }
     
-    static func create(image : UIImage) -> AdjustEditorView {
-        let selectView =  Bundle.main.loadNibNamed("AdjustEditorView", owner: self, options: nil)?[0] as! AdjustEditorView
+    static func create(image : UIImage) -> ImageAdjustView {
+        let selectView =  Bundle.main.loadNibNamed("ImageAdjustView", owner: self, options: nil)?[0] as! ImageAdjustView
         selectView.viewFrame = CGRect(x: 0, y: 0, width: getScreenWidth(), height: getScreenHeight())
         selectView.mainImage = image
         selectView.didInit()

@@ -13,8 +13,8 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		96E098B71F544A690048E361 /* AdjustEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E098B11F544A690048E361 /* AdjustEditorView.swift */; };
-		96E098B81F544A690048E361 /* AdjustEditorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96E098B21F544A690048E361 /* AdjustEditorView.xib */; };
+		96E098B71F544A690048E361 /* ImageAdjustView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E098B11F544A690048E361 /* ImageAdjustView.swift */; };
+		96E098B81F544A690048E361 /* ImageAdjustView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96E098B21F544A690048E361 /* ImageAdjustView.xib */; };
 		96E098B91F544A690048E361 /* AdjustImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E098B31F544A690048E361 /* AdjustImageView.swift */; };
 		96E098BA1F544A690048E361 /* AdjustImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96E098B41F544A690048E361 /* AdjustImageView.xib */; };
 		96E098BB1F544A690048E361 /* FirstScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E098B51F544A690048E361 /* FirstScreen.swift */; };
@@ -46,8 +46,8 @@
 		607FACE51AFB9204008FA782 /* ImageAdjusts_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageAdjusts_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		96E098B11F544A690048E361 /* AdjustEditorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdjustEditorView.swift; sourceTree = "<group>"; };
-		96E098B21F544A690048E361 /* AdjustEditorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdjustEditorView.xib; sourceTree = "<group>"; };
+		96E098B11F544A690048E361 /* ImageAdjustView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageAdjustView.swift; sourceTree = "<group>"; };
+		96E098B21F544A690048E361 /* ImageAdjustView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageAdjustView.xib; sourceTree = "<group>"; };
 		96E098B31F544A690048E361 /* AdjustImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdjustImageView.swift; sourceTree = "<group>"; };
 		96E098B41F544A690048E361 /* AdjustImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdjustImageView.xib; sourceTree = "<group>"; };
 		96E098B51F544A690048E361 /* FirstScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstScreen.swift; sourceTree = "<group>"; };
@@ -107,8 +107,8 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				96E098B11F544A690048E361 /* AdjustEditorView.swift */,
-				96E098B21F544A690048E361 /* AdjustEditorView.xib */,
+				96E098B11F544A690048E361 /* ImageAdjustView.swift */,
+				96E098B21F544A690048E361 /* ImageAdjustView.xib */,
 				96E098B31F544A690048E361 /* AdjustImageView.swift */,
 				96E098B41F544A690048E361 /* AdjustImageView.xib */,
 				96E098B51F544A690048E361 /* FirstScreen.swift */,
@@ -270,7 +270,7 @@
 				96E098BC1F544A690048E361 /* FirstScreen.xib in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
-				96E098B81F544A690048E361 /* AdjustEditorView.xib in Resources */,
+				96E098B81F544A690048E361 /* ImageAdjustView.xib in Resources */,
 				96E098BA1F544A690048E361 /* AdjustImageView.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
@@ -394,7 +394,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				96E098B91F544A690048E361 /* AdjustImageView.swift in Sources */,
-				96E098B71F544A690048E361 /* AdjustEditorView.swift in Sources */,
+				96E098B71F544A690048E361 /* ImageAdjustView.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 				96E098BB1F544A690048E361 /* FirstScreen.swift in Sources */,
 			);

@@ -9,7 +9,7 @@
 import UIKit
 
 @available(iOS 9.0, *)
-class AdjustImageView: UIView {
+class ImageAdjustView: UIView {
     
     @IBOutlet var iconImage: UIImageView!
     @IBOutlet var effectNameLabel: UILabel!
@@ -21,14 +21,15 @@ class AdjustImageView: UIView {
     
     var effecString : Shades!
     
-    var effectArray = ["Brightness" , "Saturation" , "Contrast" ,"Sharpness" , "Warmth" , "Exposure" , "Vibrance" , "Highlights" , "Shadows" ,"Tint" , "Fade"]
+    var effectArray = ["Brightness", "Saturation", "Contrast", "Sharpness", "Warmth", "Exposure", "Vibrance", "Highlights", "Shadows", "Tint", "Fade"]
     
-    static func create(frame : CGRect ,effectCase : Shades ) -> AdjustImageView {
-        let selectView =  Bundle.main.loadNibNamed("AdjustImageView", owner: self, options: nil)?[0] as! AdjustImageView
-        selectView.viewFrame = frame
-        selectView.effecString = effectCase
-        selectView.didInit()
-        return selectView
+    static func create(frame : CGRect ,effectCase : Shades ) -> ImageAdjustView {
+        let imageAdjustView =  Bundle.main.loadNibNamed("ImageAdjustView", owner: self, options: nil)?[0] as! ImageAdjustView
+        imageAdjustView.viewFrame = frame
+        imageAdjustView.effecString = effectCase
+        imageAdjustView.didInit()
+        
+        return imageAdjustView
     }
     
     func didInit() {
@@ -88,7 +89,7 @@ class AdjustImageView: UIView {
     
     @IBAction func onEffectClick(_ sender: Any) {
         for view in (self.superview?.subviews)! {
-            if let View = view as? AdjustImageView {
+            if let View = view as? ImageAdjustView {
                 View.setDefaultView()
             }
         }
@@ -123,5 +124,3 @@ extension UIImage {
         return self.withRenderingMode(UIImageRenderingMode.alwaysTemplate)
     }
 }
-
-

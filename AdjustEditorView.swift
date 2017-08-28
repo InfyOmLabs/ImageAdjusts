@@ -115,7 +115,7 @@ class AdjustEditorView: UIView ,UIGestureRecognizerDelegate {
             var count = -1
             for layoutData in self.shadesArray {
                 count += 1
-                let layoutView = AdjustImageView.create(frame : CGRect(x: 0, y: 0, width: self.layoutStackView.getHeight , height: self.layoutStackView.getHeight), effectCase: layoutData)
+                let layoutView = ImageAdjustView.create(frame : CGRect(x: 0, y: 0, width: self.layoutStackView.getHeight , height: self.layoutStackView.getHeight), effectCase: layoutData)
                 layoutView.tag = count
                 layoutView.frame = CGRect(x: 0, y: 0, width: self.layoutStackView.getHeight , height: self.layoutStackView.getHeight)
                 layoutView.selectEffectCallback = { effect in
@@ -531,7 +531,7 @@ class AdjustEditorView: UIView ,UIGestureRecognizerDelegate {
     
     @IBAction func onEffectApply(_ sender: Any) {
         for view in layoutStackView.subviews{
-            if let View = view as? AdjustImageView {
+            if let View = view as? ImageAdjustView {
                 View.setDefaultView()
             }
         }

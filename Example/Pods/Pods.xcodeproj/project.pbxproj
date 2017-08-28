@@ -13,7 +13,7 @@
 		5FCA7130D33BAD6D6186E17F6296D7DA /* Pods-ImageAdjusts_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9899CA6DF08F828B58ABB0157BC227EE /* Pods-ImageAdjusts_Example-dummy.m */; };
 		754D85EBA1F1B7C0DDA54578F0CDBAA2 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCA9805C29FD2D529190762721E2672 /* ReplaceMe.swift */; };
 		7F7536F264C87319465FA2944B0716CB /* Pods-ImageAdjusts_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 20335B3946F49AEC50BC3BD0B5101868 /* Pods-ImageAdjusts_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		96E098C71F54502A0048E361 /* AdjustImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E098C31F54502A0048E361 /* AdjustImageView.swift */; };
+		96E098C71F54502A0048E361 /* ImageAdjustView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E098C31F54502A0048E361 /* ImageAdjustView.swift */; };
 		96E098C81F54502A0048E361 /* AdjustEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E098C51F54502A0048E361 /* AdjustEditorView.swift */; };
 		A1D63B78BBB6FFDDD1DF07D3D76908F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		A5C6AF6D35B8FBBEBBD8201E4AB2EA81 /* ImageAdjusts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8AC713FE437077C84979D6F96E9D2BC /* ImageAdjusts-dummy.m */; };
@@ -52,8 +52,8 @@
 		90A596BD9AC4FE9EDBB30C4E6FF4AA88 /* Pods-ImageAdjusts_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImageAdjusts_Tests-dummy.m"; sourceTree = "<group>"; };
 		929C83D94CD8DC9829DFD494A99D2BAB /* Pods-ImageAdjusts_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ImageAdjusts_Example-umbrella.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		96E098C31F54502A0048E361 /* AdjustImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdjustImageView.swift; sourceTree = "<group>"; };
-		96E098C41F54502A0048E361 /* AdjustEditorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdjustEditorView.xib; sourceTree = "<group>"; };
+		96E098C31F54502A0048E361 /* ImageAdjustView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageAdjustView.swift; sourceTree = "<group>"; };
+		96E098C41F54502A0048E361 /* ImageAdjustView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageAdjustView.xib; sourceTree = "<group>"; };
 		96E098C51F54502A0048E361 /* AdjustEditorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdjustEditorView.swift; sourceTree = "<group>"; };
 		96E098C61F54502A0048E361 /* AdjustImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdjustImageView.xib; sourceTree = "<group>"; };
 		9899CA6DF08F828B58ABB0157BC227EE /* Pods-ImageAdjusts_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImageAdjusts_Example-dummy.m"; sourceTree = "<group>"; };
@@ -163,8 +163,8 @@
 		8B294BF34715624BD7ECE0D81E96334C /* ImageAdjusts */ = {
 			isa = PBXGroup;
 			children = (
-				96E098C31F54502A0048E361 /* AdjustImageView.swift */,
-				96E098C41F54502A0048E361 /* AdjustEditorView.xib */,
+				96E098C31F54502A0048E361 /* ImageAdjustView.swift */,
+				96E098C41F54502A0048E361 /* ImageAdjustView.xib */,
 				96E098C51F54502A0048E361 /* AdjustEditorView.swift */,
 				96E098C61F54502A0048E361 /* AdjustImageView.xib */,
 				4BCA9805C29FD2D529190762721E2672 /* ReplaceMe.swift */,
@@ -347,7 +347,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96E098C71F54502A0048E361 /* AdjustImageView.swift in Sources */,
+				96E098C71F54502A0048E361 /* ImageAdjustView.swift in Sources */,
 				A5C6AF6D35B8FBBEBBD8201E4AB2EA81 /* ImageAdjusts-dummy.m in Sources */,
 				96E098C81F54502A0048E361 /* AdjustEditorView.swift in Sources */,
 				754D85EBA1F1B7C0DDA54578F0CDBAA2 /* ReplaceMe.swift in Sources */,

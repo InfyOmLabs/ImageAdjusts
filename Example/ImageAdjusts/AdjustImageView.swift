@@ -9,7 +9,7 @@
 import UIKit
 
 @available(iOS 9.0, *)
-class AdjustImageView: UIView {
+class AdjustImageView : UIView {
     
     @IBOutlet var iconImage: UIImageView!
     @IBOutlet var effectNameLabel: UILabel!
@@ -21,13 +21,14 @@ class AdjustImageView: UIView {
     
     var effecString : Shades!
     
-    var effectArray = ["Brightness" , "Saturation" , "Contrast" ,"Sharpness" , "Warmth" , "Exposure" , "Vibrance" , "Highlights" , "Shadows" ,"Tint" , "Fade"]
+    var effectArray = ["Brightness", "Saturation", "Contrast", "Sharpness", "Warmth", "Exposure", "Vibrance", "Highlights", "Shadows", "Tint", "Fade"]
     
     static func create(frame : CGRect ,effectCase : Shades ) -> AdjustImageView {
         let selectView =  Bundle.main.loadNibNamed("AdjustImageView", owner: self, options: nil)?[0] as! AdjustImageView
         selectView.viewFrame = frame
         selectView.effecString = effectCase
         selectView.didInit()
+        
         return selectView
     }
     
