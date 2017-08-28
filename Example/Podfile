@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ImageAdjusts_Example' do
+  pod 'ImageAdjusts', :path => '../'
+
+  target 'ImageAdjusts_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
