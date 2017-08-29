@@ -50,9 +50,9 @@ pod "ImageAdjusts"
 ## How to use
 
 ```
-let imageAdjustsView = AdjustEditorView.create(image : self.editImageView.image!, frame : CGRect(x: 0, y: 0, width:  getScreenWidth(), height: getScreenHeight()))
-imageAdjustView.selectSaveImageCallback = { image in
-self.setframeImageUI(image : image , isChanges : true)
+let imageAdjustView = ImageAdjustView.create(image : self.editImageView.image!)
+    imageAdjustView.selectSaveImageCallback = { image in
+    self.setframeImageUI(image : image , isChanges : true)
 } 
 ```
 
