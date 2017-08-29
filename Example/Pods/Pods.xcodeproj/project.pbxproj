@@ -11,10 +11,9 @@
 		398F7E072B6A010E661C710031E8EA43 /* Pods-ImageAdjusts_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 929C83D94CD8DC9829DFD494A99D2BAB /* Pods-ImageAdjusts_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3E7897D8BF32DD2F120B29F0B43C3787 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		5FCA7130D33BAD6D6186E17F6296D7DA /* Pods-ImageAdjusts_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9899CA6DF08F828B58ABB0157BC227EE /* Pods-ImageAdjusts_Example-dummy.m */; };
-		754D85EBA1F1B7C0DDA54578F0CDBAA2 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCA9805C29FD2D529190762721E2672 /* ReplaceMe.swift */; };
 		7F7536F264C87319465FA2944B0716CB /* Pods-ImageAdjusts_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 20335B3946F49AEC50BC3BD0B5101868 /* Pods-ImageAdjusts_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		96E098C71F54502A0048E361 /* ImageAdjustView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E098C31F54502A0048E361 /* ImageAdjustView.swift */; };
-		96E098C81F54502A0048E361 /* AdjustEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E098C51F54502A0048E361 /* AdjustEditorView.swift */; };
+		96FB41571F557E8B00BDFB30 /* AdjustEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FB41531F557E8B00BDFB30 /* AdjustEditorView.swift */; };
+		96FB41581F557E8B00BDFB30 /* ImageAdjustView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FB41561F557E8B00BDFB30 /* ImageAdjustView.swift */; };
 		A1D63B78BBB6FFDDD1DF07D3D76908F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		A5C6AF6D35B8FBBEBBD8201E4AB2EA81 /* ImageAdjusts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8AC713FE437077C84979D6F96E9D2BC /* ImageAdjusts-dummy.m */; };
 		AA49677A5AC1BD94E48AA97AA7898B9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -40,7 +39,6 @@
 		246A6A5D1B6298E58C2D1E1871C93D45 /* Pods-ImageAdjusts_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageAdjusts_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3A63E829009EC4B215303B2260ED1B57 /* Pods-ImageAdjusts_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImageAdjusts_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		48AB742338C8E069601F3F6DBFED6AC5 /* ImageAdjusts.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ImageAdjusts.modulemap; sourceTree = "<group>"; };
-		4BCA9805C29FD2D529190762721E2672 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ImageAdjusts/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		4CDF0E1F9802BACB6EA29AE75994FF35 /* Pods_ImageAdjusts_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageAdjusts_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5542F7745AA46A135788F0EE69BE98A2 /* Pods-ImageAdjusts_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ImageAdjusts_Example.modulemap"; sourceTree = "<group>"; };
 		58A3F4FC8F11797F1D381602FCAB2185 /* Pods_ImageAdjusts_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageAdjusts_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,10 +50,10 @@
 		90A596BD9AC4FE9EDBB30C4E6FF4AA88 /* Pods-ImageAdjusts_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImageAdjusts_Tests-dummy.m"; sourceTree = "<group>"; };
 		929C83D94CD8DC9829DFD494A99D2BAB /* Pods-ImageAdjusts_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ImageAdjusts_Example-umbrella.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		96E098C31F54502A0048E361 /* ImageAdjustView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageAdjustView.swift; sourceTree = "<group>"; };
-		96E098C41F54502A0048E361 /* ImageAdjustView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageAdjustView.xib; sourceTree = "<group>"; };
-		96E098C51F54502A0048E361 /* AdjustEditorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdjustEditorView.swift; sourceTree = "<group>"; };
-		96E098C61F54502A0048E361 /* AdjustImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdjustImageView.xib; sourceTree = "<group>"; };
+		96FB41531F557E8B00BDFB30 /* AdjustEditorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AdjustEditorView.swift; path = ImageAdjusts/Classes/AdjustEditorView.swift; sourceTree = "<group>"; };
+		96FB41541F557E8B00BDFB30 /* ImageAdjustView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ImageAdjustView.xib; path = ImageAdjusts/Classes/ImageAdjustView.xib; sourceTree = "<group>"; };
+		96FB41551F557E8B00BDFB30 /* AdjustImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AdjustImageView.xib; path = ImageAdjusts/Classes/AdjustImageView.xib; sourceTree = "<group>"; };
+		96FB41561F557E8B00BDFB30 /* ImageAdjustView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageAdjustView.swift; path = ImageAdjusts/Classes/ImageAdjustView.swift; sourceTree = "<group>"; };
 		9899CA6DF08F828B58ABB0157BC227EE /* Pods-ImageAdjusts_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImageAdjusts_Example-dummy.m"; sourceTree = "<group>"; };
 		9A4E86157739A750DB1CE898B81DED9A /* Pods-ImageAdjusts_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ImageAdjusts_Tests.modulemap"; sourceTree = "<group>"; };
 		A50D8809A9B4B8D89C5A0F1E16F021E5 /* Pods-ImageAdjusts_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImageAdjusts_Example-resources.sh"; sourceTree = "<group>"; };
@@ -163,11 +161,10 @@
 		8B294BF34715624BD7ECE0D81E96334C /* ImageAdjusts */ = {
 			isa = PBXGroup;
 			children = (
-				96E098C31F54502A0048E361 /* ImageAdjustView.swift */,
-				96E098C41F54502A0048E361 /* ImageAdjustView.xib */,
-				96E098C51F54502A0048E361 /* AdjustEditorView.swift */,
-				96E098C61F54502A0048E361 /* AdjustImageView.xib */,
-				4BCA9805C29FD2D529190762721E2672 /* ReplaceMe.swift */,
+				96FB41531F557E8B00BDFB30 /* AdjustEditorView.swift */,
+				96FB41541F557E8B00BDFB30 /* ImageAdjustView.xib */,
+				96FB41551F557E8B00BDFB30 /* AdjustImageView.xib */,
+				96FB41561F557E8B00BDFB30 /* ImageAdjustView.swift */,
 				028BF2CF0F78C3AD20728DAB8D50890C /* Support Files */,
 			);
 			name = ImageAdjusts;
@@ -306,6 +303,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					E7195867CFCF8D6D4913A86086E099D5 = {
+						LastSwiftMigration = 0830;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -347,10 +349,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96E098C71F54502A0048E361 /* ImageAdjustView.swift in Sources */,
+				96FB41571F557E8B00BDFB30 /* AdjustEditorView.swift in Sources */,
 				A5C6AF6D35B8FBBEBBD8201E4AB2EA81 /* ImageAdjusts-dummy.m in Sources */,
-				96E098C81F54502A0048E361 /* AdjustEditorView.swift in Sources */,
-				754D85EBA1F1B7C0DDA54578F0CDBAA2 /* ReplaceMe.swift in Sources */,
+				96FB41581F557E8B00BDFB30 /* ImageAdjustView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,6 +482,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CC9085144E641C5853B7A3E091A8AD88 /* ImageAdjusts.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -603,6 +605,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CC9085144E641C5853B7A3E091A8AD88 /* ImageAdjusts.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
