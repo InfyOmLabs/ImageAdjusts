@@ -7,17 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05D35EA83D195F9DC1DB4456561C919C /* Tint@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74BCF19593FF97AFAD316328FFD7B84D /* Tint@2x.png */; };
+		0C3DC3E03D6FF13497DC2ECC4BA9B94A /* Warmth@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE674236D7F74C7B1E2014E2AE020166 /* Warmth@2x.png */; };
+		0DFF59943D935EDD2C899BDB062AC96C /* Exposure@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75B44D7A6BDA06AAE87D91394A448BA2 /* Exposure@2x.png */; };
+		11FE65DE4F229917C6974766102ABF3A /* ImageAdjustView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97016E719B00E411370B4F64C4638021 /* ImageAdjustView.swift */; };
+		1774DD73F10945FF2042FAA6D20A3121 /* Close.png in Resources */ = {isa = PBXBuildFile; fileRef = 23ADDCC3B0DDCDE474BD78FBD69410FC /* Close.png */; };
+		22461D5FA341B945A1CD6B9540AF0B29 /* AdjustImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4E28A9B542FFFCADC8CF672CDF8478 /* AdjustImageView.swift */; };
+		2EAEBB1CB646C0C8BBC8591BFCBD3B2E /* AdjustImageView.xib in Sources */ = {isa = PBXBuildFile; fileRef = A4977B5820039DBCA7769A16EA151924 /* AdjustImageView.xib */; };
+		3006E08E0A541D7621C42F4074E5D2A2 /* Highlights@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F18F593BCD75302D3305FD647892A76 /* Highlights@2x.png */; };
 		398F7E072B6A010E661C710031E8EA43 /* Pods-ImageAdjusts_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 929C83D94CD8DC9829DFD494A99D2BAB /* Pods-ImageAdjusts_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AC92831DACC00C4E16831FECD6115EA /* Warmth.png in Resources */ = {isa = PBXBuildFile; fileRef = 6059E8AC2A730D61AF48D2614663887E /* Warmth.png */; };
 		3E7897D8BF32DD2F120B29F0B43C3787 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		43CA4C0F47AE622BECD26037B880BBFA /* ImageAdjustView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 8D7AB08B000CEEF0B75E50AE20B696CA /* ImageAdjustView.xib */; };
+		4B9C50103C65D8A5B6BAEE3D163B47B0 /* Vibrance.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D8FC9DF5A744A152EFD6FCF52DAC617 /* Vibrance.png */; };
+		4CA9356B3E835D27832BE397D8E37B2D /* Brightness.png in Resources */ = {isa = PBXBuildFile; fileRef = F701666BD84721E340B86B73D3928980 /* Brightness.png */; };
+		4F0B63BC039A773E5CF478CCD4D4701F /* Sharpness.png in Resources */ = {isa = PBXBuildFile; fileRef = 7613B43EB87E8FB89916B4246E3101D3 /* Sharpness.png */; };
+		4F1BEB89F3EDF36767BA31951DCEC8E9 /* Contrast@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2D79EBA35A4BC98C6DA5D768814D133 /* Contrast@2x.png */; };
+		53474AF60D723526E7E1AC2253D04678 /* Close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE329EF88C38DD08A790556ECE3AF1F6 /* Close@3x.png */; };
+		54501BE46A3DFBF2ED4675324940DF04 /* Close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B81FFE8933EC973E538CAC842E331D80 /* Close@2x.png */; };
+		57006C8EF47A5A5F6E33BD725AD11206 /* Warmth@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DE857F52358C4B9708A6BA6906DB73D /* Warmth@3x.png */; };
+		57AB5D5EBA3E0087E6B9285F9FC2ADCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		58FEF31C01B77242CD0385B2C28C960C /* Saturation@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE8CE809D82DBA3A001B94365BA70052 /* Saturation@3x.png */; };
+		5EBC8DB67D11FC6AFA6E55707AEDCD96 /* Tint.png in Resources */ = {isa = PBXBuildFile; fileRef = 29B099A10A6DF981A5E709C707AAFF9B /* Tint.png */; };
+		5ED308B337A01C0A4D5CA96203053157 /* Shadows.png in Resources */ = {isa = PBXBuildFile; fileRef = 67CC3A2D408DA8FC4EA0028DEEFB905F /* Shadows.png */; };
+		5F3EC706487DCAEA333995EE76A18E05 /* Exposure.png in Resources */ = {isa = PBXBuildFile; fileRef = BDE2AE283F15959DE6A8A7126373C913 /* Exposure.png */; };
 		5FCA7130D33BAD6D6186E17F6296D7DA /* Pods-ImageAdjusts_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9899CA6DF08F828B58ABB0157BC227EE /* Pods-ImageAdjusts_Example-dummy.m */; };
+		71599F9DEA5CF8553E0DA34AC8E31BBD /* ImageAdjusts.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3459E6ACA0778029FBF7B26C6C4F1969 /* ImageAdjusts.bundle */; };
+		71852E62FF78D474F5FD789548C994FB /* Contrast.png in Resources */ = {isa = PBXBuildFile; fileRef = D4292BCE4A310DE03F548BB36C2BE092 /* Contrast.png */; };
+		7328F1BB840CDAEDC8C5632DD7CEE63E /* Vibrance@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95A1AD0322AF3DD5E9F665315C416D62 /* Vibrance@3x.png */; };
+		74ECE146B59CE02CA40A43309DA5970B /* Vibrance@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B5D807CD1DEEE7CE48110345A4E8F604 /* Vibrance@2x.png */; };
+		7F2877395B9AC826FD66539772F59229 /* ImageAdjusts-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2436743DDB9B9C2C7214A947993E4713 /* ImageAdjusts-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7F7536F264C87319465FA2944B0716CB /* Pods-ImageAdjusts_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 20335B3946F49AEC50BC3BD0B5101868 /* Pods-ImageAdjusts_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		931FE1C37DB79FBCE3B2813BAE5FB7A4 /* ImageAdjusts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F910EAA35E8C4A1D67D4271E4CDF1851 /* ImageAdjusts-dummy.m */; };
-		96FB419F1F55957600BDFB30 /* AdjustImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FB419B1F55957600BDFB30 /* AdjustImageView.swift */; };
-		96FB41A01F55957600BDFB30 /* ImageAdjustView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FB419C1F55957600BDFB30 /* ImageAdjustView.swift */; };
+		83F767ED8505DE7CD2F8647F5831A01C /* Exposure@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1CB2BE022BCA959136626973AD40D57 /* Exposure@3x.png */; };
+		90B9A39DA3855E038C1C4FA2E6D57437 /* formatRotate.png in Resources */ = {isa = PBXBuildFile; fileRef = B29C96793369EA2F3757C82D8C00AAAA /* formatRotate.png */; };
+		952645576842209439AFAE21803DEEED /* Saturation.png in Resources */ = {isa = PBXBuildFile; fileRef = BC67A555E96DCCADFE45EE26ADBC907F /* Saturation.png */; };
+		9F42EC5EDBD0A3B81E858A4BE79C3B1D /* Brightness@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CADF4DC03503FCBE4C94E86EA7713992 /* Brightness@3x.png */; };
+		A396B8EE65DBDD1A15E5D2B397912E5C /* Highlights@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA63E151D29E4ADF5AE601FF357263EF /* Highlights@3x.png */; };
+		A45D7A03013F73C43AECF601C05C320F /* Brightness@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 44FD227C97875201EB05853CBE6AB214 /* Brightness@2x.png */; };
+		A5F09FFC158BA4D71A728D06700CA9B8 /* ImageAdjusts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F829F6B46409B17C3D84F6604F6ABB0 /* ImageAdjusts-dummy.m */; };
+		A84CF642710C66A5F33C416E7EC5D66E /* Fade@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A26888EA36B346F2ADBA0C6AD9301C20 /* Fade@2x.png */; };
 		AA49677A5AC1BD94E48AA97AA7898B9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		BE435FB7B78FF92D5A91D15CC78D0FBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		D2E26BF246648726DC9101B6F275AACB /* ImageAdjusts-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BCED8C092803F74B494E119B01BE7226 /* ImageAdjusts-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1EA02EFDDB184AE14DC984956E0966C /* Fade.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EE1180724036E0162B86144807FF582 /* Fade.png */; };
+		B3F6AFE6C81EF937D37B8804B344A2E9 /* done@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4FDD621E7C6B633964A23F5AC698487 /* done@2x.png */; };
+		B5A878D342093177A2D9D75C1598CF8B /* Contrast@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 945BD285B147E21E3F54AA680AB45E47 /* Contrast@3x.png */; };
+		B92FB575008671B73C181227F7B9C79D /* done@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7D6F82DA1C86B148B69AD825B16F95F /* done@3x.png */; };
+		C82F1CE9A1675E8B603237B169C95D41 /* formatRotate@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFF96ACCACD29A377BB178F9FBC6BF1D /* formatRotate@3x.png */; };
+		CB477756CCC460660568B01BEDEE25A8 /* Sharpness@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF0A5E5F7B3B1A95E1E41A2DFCCE998B /* Sharpness@2x.png */; };
+		CEB1606E5C45DD978D8603BDA73DE5FB /* Highlights.png in Resources */ = {isa = PBXBuildFile; fileRef = F1140581ED97EF3F5F2B6A5AEA192A6B /* Highlights.png */; };
+		D878AD720E2123630A6867982FC0F7EE /* done.png in Resources */ = {isa = PBXBuildFile; fileRef = FAB43B524428D7C0C0F1FB8CEFCDB43A /* done.png */; };
+		DAE846D54966FCAA8A4E27BD1B50FD0C /* Shadows@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E3D5F1BF103BDF5157132648325D19 /* Shadows@3x.png */; };
+		DF4AA8F20B3D8E4ACABF878228F29397 /* Saturation@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4039C7C412706538BBE1313A41D91A11 /* Saturation@2x.png */; };
+		DFB6C4CA0C4A47BFC7D4BA2B215FE3F0 /* Sharpness@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9565D075F8A3F066A50648149DF91562 /* Sharpness@3x.png */; };
+		E2C200A53DAAC912D6B179AAEB73D068 /* formatRotate@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57B72E222703E312E60E69EE757CADA9 /* formatRotate@2x.png */; };
+		E5806C5E74F84E0AD1D856BBA8ADBCEF /* Tint@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC4C7DE8BF2D09FB09AFBF7E3F360DC0 /* Tint@3x.png */; };
+		EE6A942968593BB89202594E1AEABB1C /* Shadows@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 491473EC2EFE159114CEB699CDE6FBC1 /* Shadows@2x.png */; };
 		F121B2C1CF0D74337F732BB2D57D3D7B /* Pods-ImageAdjusts_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A596BD9AC4FE9EDBB30C4E6FF4AA88 /* Pods-ImageAdjusts_Tests-dummy.m */; };
+		F1C46E3648DC1B5D3612AF3F48086229 /* Fade@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F9668BCF12B640467AA82319434B1D /* Fade@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,8 +70,15 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 651F5F475233FECC73E3068050D7FF82;
+			remoteGlobalIDString = C3D995A74ACB36CB7A8C05E4E4B238B9;
 			remoteInfo = ImageAdjusts;
+		};
+		99DC03A6496A747D6EE0E547343DC476 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 957A6C4B82077CA471CA9BCD13CC918C;
+			remoteInfo = "ImageAdjusts-ImageAdjusts";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -34,49 +86,85 @@
 		052B29BC5155CCBA6F41E8B91201C579 /* Pods-ImageAdjusts_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImageAdjusts_Example-frameworks.sh"; sourceTree = "<group>"; };
 		0BEC2F84E565E1BB00D4572283E6179C /* Pods-ImageAdjusts_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageAdjusts_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		10A9E9CB753672B698FD4B968F8F360D /* Pods-ImageAdjusts_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageAdjusts_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		14D4368E44E48FF79A23B0813BB64072 /* ImageAdjusts.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ImageAdjusts.modulemap; sourceTree = "<group>"; };
+		1CC2EE3A454C5AD0B8EBC044B0B65B81 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1EA2AAE47814A33FF7D2784769E8DBB9 /* Pods-ImageAdjusts_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImageAdjusts_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		20335B3946F49AEC50BC3BD0B5101868 /* Pods-ImageAdjusts_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ImageAdjusts_Tests-umbrella.h"; sourceTree = "<group>"; };
+		23ADDCC3B0DDCDE474BD78FBD69410FC /* Close.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Close.png; path = ImageAdjusts/Assets/Close.png; sourceTree = "<group>"; };
+		2436743DDB9B9C2C7214A947993E4713 /* ImageAdjusts-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImageAdjusts-umbrella.h"; sourceTree = "<group>"; };
 		246A6A5D1B6298E58C2D1E1871C93D45 /* Pods-ImageAdjusts_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageAdjusts_Example.release.xcconfig"; sourceTree = "<group>"; };
+		29B099A10A6DF981A5E709C707AAFF9B /* Tint.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Tint.png; path = ImageAdjusts/Assets/Tint.png; sourceTree = "<group>"; };
+		32376FE3F3AE627E126EF460DAC9188F /* ImageAdjusts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ImageAdjusts.framework; path = ImageAdjusts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3459E6ACA0778029FBF7B26C6C4F1969 /* ImageAdjusts.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ImageAdjusts.bundle; path = ImageAdjusts.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		34E3D5F1BF103BDF5157132648325D19 /* Shadows@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Shadows@3x.png"; path = "ImageAdjusts/Assets/Shadows@3x.png"; sourceTree = "<group>"; };
 		3A63E829009EC4B215303B2260ED1B57 /* Pods-ImageAdjusts_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImageAdjusts_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4CDF0E1F9802BACB6EA29AE75994FF35 /* Pods_ImageAdjusts_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageAdjusts_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5542F7745AA46A135788F0EE69BE98A2 /* Pods-ImageAdjusts_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ImageAdjusts_Example.modulemap"; sourceTree = "<group>"; };
-		5572178704613FDC738DED11ACFF8647 /* ImageAdjusts.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ImageAdjusts.xcconfig; sourceTree = "<group>"; };
-		58A3F4FC8F11797F1D381602FCAB2185 /* Pods_ImageAdjusts_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageAdjusts_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DE857F52358C4B9708A6BA6906DB73D /* Warmth@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Warmth@3x.png"; path = "ImageAdjusts/Assets/Warmth@3x.png"; sourceTree = "<group>"; };
+		4039C7C412706538BBE1313A41D91A11 /* Saturation@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Saturation@2x.png"; path = "ImageAdjusts/Assets/Saturation@2x.png"; sourceTree = "<group>"; };
+		44FD227C97875201EB05853CBE6AB214 /* Brightness@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Brightness@2x.png"; path = "ImageAdjusts/Assets/Brightness@2x.png"; sourceTree = "<group>"; };
+		491473EC2EFE159114CEB699CDE6FBC1 /* Shadows@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Shadows@2x.png"; path = "ImageAdjusts/Assets/Shadows@2x.png"; sourceTree = "<group>"; };
+		4F829F6B46409B17C3D84F6604F6ABB0 /* ImageAdjusts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ImageAdjusts-dummy.m"; sourceTree = "<group>"; };
+		5542F7745AA46A135788F0EE69BE98A2 /* Pods-ImageAdjusts_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ImageAdjusts_Example.modulemap"; sourceTree = "<group>"; };
+		55F9668BCF12B640467AA82319434B1D /* Fade@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Fade@3x.png"; path = "ImageAdjusts/Assets/Fade@3x.png"; sourceTree = "<group>"; };
+		57B72E222703E312E60E69EE757CADA9 /* formatRotate@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "formatRotate@2x.png"; path = "ImageAdjusts/Assets/formatRotate@2x.png"; sourceTree = "<group>"; };
+		5D8FC9DF5A744A152EFD6FCF52DAC617 /* Vibrance.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Vibrance.png; path = ImageAdjusts/Assets/Vibrance.png; sourceTree = "<group>"; };
+		6059E8AC2A730D61AF48D2614663887E /* Warmth.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Warmth.png; path = ImageAdjusts/Assets/Warmth.png; sourceTree = "<group>"; };
 		64828F996076A87D453F1E24800A1521 /* Pods-ImageAdjusts_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageAdjusts_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		67CC3A2D408DA8FC4EA0028DEEFB905F /* Shadows.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Shadows.png; path = ImageAdjusts/Assets/Shadows.png; sourceTree = "<group>"; };
 		68A40940F8ABEC3BA6CFB0A3C5C3D700 /* Pods-ImageAdjusts_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImageAdjusts_Tests-resources.sh"; sourceTree = "<group>"; };
 		6AE798280440DF52B3663A52AF6F0AA1 /* Pods-ImageAdjusts_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageAdjusts_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		74BCF19593FF97AFAD316328FFD7B84D /* Tint@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Tint@2x.png"; path = "ImageAdjusts/Assets/Tint@2x.png"; sourceTree = "<group>"; };
+		75B44D7A6BDA06AAE87D91394A448BA2 /* Exposure@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Exposure@2x.png"; path = "ImageAdjusts/Assets/Exposure@2x.png"; sourceTree = "<group>"; };
+		7613B43EB87E8FB89916B4246E3101D3 /* Sharpness.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Sharpness.png; path = ImageAdjusts/Assets/Sharpness.png; sourceTree = "<group>"; };
 		7A8716E79DAD42CF5BCC0AB80636584E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D7AB08B000CEEF0B75E50AE20B696CA /* ImageAdjustView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ImageAdjustView.xib; path = ImageAdjusts/Classes/ImageAdjustView.xib; sourceTree = "<group>"; };
+		8EE1180724036E0162B86144807FF582 /* Fade.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Fade.png; path = ImageAdjusts/Assets/Fade.png; sourceTree = "<group>"; };
+		8F18F593BCD75302D3305FD647892A76 /* Highlights@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Highlights@2x.png"; path = "ImageAdjusts/Assets/Highlights@2x.png"; sourceTree = "<group>"; };
 		90A596BD9AC4FE9EDBB30C4E6FF4AA88 /* Pods-ImageAdjusts_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImageAdjusts_Tests-dummy.m"; sourceTree = "<group>"; };
 		929C83D94CD8DC9829DFD494A99D2BAB /* Pods-ImageAdjusts_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ImageAdjusts_Example-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		96FB419B1F55957600BDFB30 /* AdjustImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AdjustImageView.swift; path = ImageAdjusts/Classes/AdjustImageView.swift; sourceTree = "<group>"; };
-		96FB419C1F55957600BDFB30 /* ImageAdjustView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageAdjustView.swift; path = ImageAdjusts/Classes/ImageAdjustView.swift; sourceTree = "<group>"; };
-		96FB419D1F55957600BDFB30 /* AdjustImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AdjustImageView.xib; path = ImageAdjusts/Classes/AdjustImageView.xib; sourceTree = "<group>"; };
-		96FB41A11F55A22F00BDFB30 /* ImageAdjustView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ImageAdjustView.xib; path = ImageAdjusts/Classes/ImageAdjustView.xib; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		945BD285B147E21E3F54AA680AB45E47 /* Contrast@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Contrast@3x.png"; path = "ImageAdjusts/Assets/Contrast@3x.png"; sourceTree = "<group>"; };
+		9565D075F8A3F066A50648149DF91562 /* Sharpness@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Sharpness@3x.png"; path = "ImageAdjusts/Assets/Sharpness@3x.png"; sourceTree = "<group>"; };
+		95A1AD0322AF3DD5E9F665315C416D62 /* Vibrance@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Vibrance@3x.png"; path = "ImageAdjusts/Assets/Vibrance@3x.png"; sourceTree = "<group>"; };
+		97016E719B00E411370B4F64C4638021 /* ImageAdjustView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageAdjustView.swift; path = ImageAdjusts/Classes/ImageAdjustView.swift; sourceTree = "<group>"; };
 		9899CA6DF08F828B58ABB0157BC227EE /* Pods-ImageAdjusts_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImageAdjusts_Example-dummy.m"; sourceTree = "<group>"; };
-		9A4E86157739A750DB1CE898B81DED9A /* Pods-ImageAdjusts_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ImageAdjusts_Tests.modulemap"; sourceTree = "<group>"; };
-		9CE605EE7FD2F8E8969502BCDEFD2BDF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A4E86157739A750DB1CE898B81DED9A /* Pods-ImageAdjusts_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ImageAdjusts_Tests.modulemap"; sourceTree = "<group>"; };
+		A26888EA36B346F2ADBA0C6AD9301C20 /* Fade@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Fade@2x.png"; path = "ImageAdjusts/Assets/Fade@2x.png"; sourceTree = "<group>"; };
+		A4347864181A1E01F63810CA6B10F5A8 /* Pods_ImageAdjusts_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ImageAdjusts_Example.framework; path = "Pods-ImageAdjusts_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4977B5820039DBCA7769A16EA151924 /* AdjustImageView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = AdjustImageView.xib; path = ImageAdjusts/Classes/AdjustImageView.xib; sourceTree = "<group>"; };
 		A50D8809A9B4B8D89C5A0F1E16F021E5 /* Pods-ImageAdjusts_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImageAdjusts_Example-resources.sh"; sourceTree = "<group>"; };
-		A912D4E100FBA0AC9AAD950782C059BE /* ImageAdjusts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ImageAdjusts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE674236D7F74C7B1E2014E2AE020166 /* Warmth@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Warmth@2x.png"; path = "ImageAdjusts/Assets/Warmth@2x.png"; sourceTree = "<group>"; };
+		B29C96793369EA2F3757C82D8C00AAAA /* formatRotate.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = formatRotate.png; path = ImageAdjusts/Assets/formatRotate.png; sourceTree = "<group>"; };
 		B43E4097AE79FE0077EABCDFE173D493 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BCED8C092803F74B494E119B01BE7226 /* ImageAdjusts-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImageAdjusts-umbrella.h"; sourceTree = "<group>"; };
-		C2E046D4D51A577EE306A4C70CDDB652 /* ImageAdjusts-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImageAdjusts-prefix.pch"; sourceTree = "<group>"; };
+		B4FDD621E7C6B633964A23F5AC698487 /* done@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "done@2x.png"; path = "ImageAdjusts/Assets/done@2x.png"; sourceTree = "<group>"; };
+		B5D807CD1DEEE7CE48110345A4E8F604 /* Vibrance@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Vibrance@2x.png"; path = "ImageAdjusts/Assets/Vibrance@2x.png"; sourceTree = "<group>"; };
+		B638EA038ADE8317DC905020CD97DF1D /* ImageAdjusts-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImageAdjusts-prefix.pch"; sourceTree = "<group>"; };
+		B81FFE8933EC973E538CAC842E331D80 /* Close@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Close@2x.png"; path = "ImageAdjusts/Assets/Close@2x.png"; sourceTree = "<group>"; };
+		BC67A555E96DCCADFE45EE26ADBC907F /* Saturation.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Saturation.png; path = ImageAdjusts/Assets/Saturation.png; sourceTree = "<group>"; };
+		BD4E28A9B542FFFCADC8CF672CDF8478 /* AdjustImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AdjustImageView.swift; path = ImageAdjusts/Classes/AdjustImageView.swift; sourceTree = "<group>"; };
+		BDE2AE283F15959DE6A8A7126373C913 /* Exposure.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Exposure.png; path = ImageAdjusts/Assets/Exposure.png; sourceTree = "<group>"; };
+		BFF96ACCACD29A377BB178F9FBC6BF1D /* formatRotate@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "formatRotate@3x.png"; path = "ImageAdjusts/Assets/formatRotate@3x.png"; sourceTree = "<group>"; };
+		C2D79EBA35A4BC98C6DA5D768814D133 /* Contrast@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Contrast@2x.png"; path = "ImageAdjusts/Assets/Contrast@2x.png"; sourceTree = "<group>"; };
+		CA63E151D29E4ADF5AE601FF357263EF /* Highlights@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Highlights@3x.png"; path = "ImageAdjusts/Assets/Highlights@3x.png"; sourceTree = "<group>"; };
+		CADF4DC03503FCBE4C94E86EA7713992 /* Brightness@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Brightness@3x.png"; path = "ImageAdjusts/Assets/Brightness@3x.png"; sourceTree = "<group>"; };
+		CE329EF88C38DD08A790556ECE3AF1F6 /* Close@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Close@3x.png"; path = "ImageAdjusts/Assets/Close@3x.png"; sourceTree = "<group>"; };
 		CE4762E5095FD9FB70E83CD2B57C4CC3 /* Pods-ImageAdjusts_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageAdjusts_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		CE7A1BFE7AE58A3C7827184BC4BF6C37 /* ImageAdjusts.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ImageAdjusts.xcconfig; sourceTree = "<group>"; };
+		D1108EC1922E0FF498D2BDF1476F5140 /* Pods_ImageAdjusts_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ImageAdjusts_Tests.framework; path = "Pods-ImageAdjusts_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1ABF4D671156F631BB30C867FA8D6DD /* Pods-ImageAdjusts_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImageAdjusts_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F910EAA35E8C4A1D67D4271E4CDF1851 /* ImageAdjusts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ImageAdjusts-dummy.m"; sourceTree = "<group>"; };
-		FD7C40C0C5B10824D978EE0195F8DAE8 /* ImageAdjusts.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ImageAdjusts.modulemap; sourceTree = "<group>"; };
+		D4292BCE4A310DE03F548BB36C2BE092 /* Contrast.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Contrast.png; path = ImageAdjusts/Assets/Contrast.png; sourceTree = "<group>"; };
+		DC4C7DE8BF2D09FB09AFBF7E3F360DC0 /* Tint@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Tint@3x.png"; path = "ImageAdjusts/Assets/Tint@3x.png"; sourceTree = "<group>"; };
+		DF0A5E5F7B3B1A95E1E41A2DFCCE998B /* Sharpness@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Sharpness@2x.png"; path = "ImageAdjusts/Assets/Sharpness@2x.png"; sourceTree = "<group>"; };
+		E881B9119E129EA9D74838D8A1E561E3 /* ResourceBundle-ImageAdjusts-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ImageAdjusts-Info.plist"; sourceTree = "<group>"; };
+		F1140581ED97EF3F5F2B6A5AEA192A6B /* Highlights.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Highlights.png; path = ImageAdjusts/Assets/Highlights.png; sourceTree = "<group>"; };
+		F1CB2BE022BCA959136626973AD40D57 /* Exposure@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Exposure@3x.png"; path = "ImageAdjusts/Assets/Exposure@3x.png"; sourceTree = "<group>"; };
+		F701666BD84721E340B86B73D3928980 /* Brightness.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Brightness.png; path = ImageAdjusts/Assets/Brightness.png; sourceTree = "<group>"; };
+		F7D6F82DA1C86B148B69AD825B16F95F /* done@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "done@3x.png"; path = "ImageAdjusts/Assets/done@3x.png"; sourceTree = "<group>"; };
+		FAB43B524428D7C0C0F1FB8CEFCDB43A /* done.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = done.png; path = ImageAdjusts/Assets/done.png; sourceTree = "<group>"; };
+		FE8CE809D82DBA3A001B94365BA70052 /* Saturation@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Saturation@3x.png"; path = "ImageAdjusts/Assets/Saturation@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		23C9BB9B0953818421C03AE77CF04CF4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BE435FB7B78FF92D5A91D15CC78D0FBB /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2CFEFB7DA49DF59FC1BC7A708FF7B685 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -93,30 +181,85 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B8614FBD79B32CE704A64C307FFD40D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C63A810B9F1ECF3C5C34AA5803033797 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57AB5D5EBA3E0087E6B9285F9FC2ADCC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0DE113FEFCBF49FF8DC0679E382AD032 /* Products */ = {
+		10EE4A730DAAC15557E5E4329F3C18F0 /* ImageAdjusts */ = {
 			isa = PBXGroup;
 			children = (
-				A912D4E100FBA0AC9AAD950782C059BE /* ImageAdjusts.framework */,
-				4CDF0E1F9802BACB6EA29AE75994FF35 /* Pods_ImageAdjusts_Example.framework */,
-				58A3F4FC8F11797F1D381602FCAB2185 /* Pods_ImageAdjusts_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		2CFA8D450F13B7976D70D5173A831FF7 /* ImageAdjusts */ = {
-			isa = PBXGroup;
-			children = (
-				96FB419B1F55957600BDFB30 /* AdjustImageView.swift */,
-				96FB419D1F55957600BDFB30 /* AdjustImageView.xib */,
-				96FB419C1F55957600BDFB30 /* ImageAdjustView.swift */,
-				96FB41A11F55A22F00BDFB30 /* ImageAdjustView.xib */,
-				953C3929961CBDCEAE5D4C53A370E881 /* Support Files */,
+				BD4E28A9B542FFFCADC8CF672CDF8478 /* AdjustImageView.swift */,
+				A4977B5820039DBCA7769A16EA151924 /* AdjustImageView.xib */,
+				97016E719B00E411370B4F64C4638021 /* ImageAdjustView.swift */,
+				8D7AB08B000CEEF0B75E50AE20B696CA /* ImageAdjustView.xib */,
+				1BC55DDDF0B5A6130CF7AECDB1B49162 /* Resources */,
+				5DC9C1DB6DD751B0465518CEA87D4C6A /* Support Files */,
 			);
 			name = ImageAdjusts;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		1BC55DDDF0B5A6130CF7AECDB1B49162 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F701666BD84721E340B86B73D3928980 /* Brightness.png */,
+				44FD227C97875201EB05853CBE6AB214 /* Brightness@2x.png */,
+				CADF4DC03503FCBE4C94E86EA7713992 /* Brightness@3x.png */,
+				23ADDCC3B0DDCDE474BD78FBD69410FC /* Close.png */,
+				B81FFE8933EC973E538CAC842E331D80 /* Close@2x.png */,
+				CE329EF88C38DD08A790556ECE3AF1F6 /* Close@3x.png */,
+				D4292BCE4A310DE03F548BB36C2BE092 /* Contrast.png */,
+				C2D79EBA35A4BC98C6DA5D768814D133 /* Contrast@2x.png */,
+				945BD285B147E21E3F54AA680AB45E47 /* Contrast@3x.png */,
+				FAB43B524428D7C0C0F1FB8CEFCDB43A /* done.png */,
+				B4FDD621E7C6B633964A23F5AC698487 /* done@2x.png */,
+				F7D6F82DA1C86B148B69AD825B16F95F /* done@3x.png */,
+				BDE2AE283F15959DE6A8A7126373C913 /* Exposure.png */,
+				75B44D7A6BDA06AAE87D91394A448BA2 /* Exposure@2x.png */,
+				F1CB2BE022BCA959136626973AD40D57 /* Exposure@3x.png */,
+				8EE1180724036E0162B86144807FF582 /* Fade.png */,
+				A26888EA36B346F2ADBA0C6AD9301C20 /* Fade@2x.png */,
+				55F9668BCF12B640467AA82319434B1D /* Fade@3x.png */,
+				B29C96793369EA2F3757C82D8C00AAAA /* formatRotate.png */,
+				57B72E222703E312E60E69EE757CADA9 /* formatRotate@2x.png */,
+				BFF96ACCACD29A377BB178F9FBC6BF1D /* formatRotate@3x.png */,
+				F1140581ED97EF3F5F2B6A5AEA192A6B /* Highlights.png */,
+				8F18F593BCD75302D3305FD647892A76 /* Highlights@2x.png */,
+				CA63E151D29E4ADF5AE601FF357263EF /* Highlights@3x.png */,
+				BC67A555E96DCCADFE45EE26ADBC907F /* Saturation.png */,
+				4039C7C412706538BBE1313A41D91A11 /* Saturation@2x.png */,
+				FE8CE809D82DBA3A001B94365BA70052 /* Saturation@3x.png */,
+				67CC3A2D408DA8FC4EA0028DEEFB905F /* Shadows.png */,
+				491473EC2EFE159114CEB699CDE6FBC1 /* Shadows@2x.png */,
+				34E3D5F1BF103BDF5157132648325D19 /* Shadows@3x.png */,
+				7613B43EB87E8FB89916B4246E3101D3 /* Sharpness.png */,
+				DF0A5E5F7B3B1A95E1E41A2DFCCE998B /* Sharpness@2x.png */,
+				9565D075F8A3F066A50648149DF91562 /* Sharpness@3x.png */,
+				29B099A10A6DF981A5E709C707AAFF9B /* Tint.png */,
+				74BCF19593FF97AFAD316328FFD7B84D /* Tint@2x.png */,
+				DC4C7DE8BF2D09FB09AFBF7E3F360DC0 /* Tint@3x.png */,
+				5D8FC9DF5A744A152EFD6FCF52DAC617 /* Vibrance.png */,
+				B5D807CD1DEEE7CE48110345A4E8F604 /* Vibrance@2x.png */,
+				95A1AD0322AF3DD5E9F665315C416D62 /* Vibrance@3x.png */,
+				6059E8AC2A730D61AF48D2614663887E /* Warmth.png */,
+				AE674236D7F74C7B1E2014E2AE020166 /* Warmth@2x.png */,
+				3DE857F52358C4B9708A6BA6906DB73D /* Warmth@3x.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		2FA21C20646CEA239839CB81FE62D87C /* Pods-ImageAdjusts_Tests */ = {
@@ -137,6 +280,21 @@
 			path = "Target Support Files/Pods-ImageAdjusts_Tests";
 			sourceTree = "<group>";
 		};
+		5DC9C1DB6DD751B0465518CEA87D4C6A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				14D4368E44E48FF79A23B0813BB64072 /* ImageAdjusts.modulemap */,
+				CE7A1BFE7AE58A3C7827184BC4BF6C37 /* ImageAdjusts.xcconfig */,
+				4F829F6B46409B17C3D84F6604F6ABB0 /* ImageAdjusts-dummy.m */,
+				B638EA038ADE8317DC905020CD97DF1D /* ImageAdjusts-prefix.pch */,
+				2436743DDB9B9C2C7214A947993E4713 /* ImageAdjusts-umbrella.h */,
+				1CC2EE3A454C5AD0B8EBC044B0B65B81 /* Info.plist */,
+				E881B9119E129EA9D74838D8A1E561E3 /* ResourceBundle-ImageAdjusts-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ImageAdjusts";
+			sourceTree = "<group>";
+		};
 		7CAD532D828A7B946B4276BEF3C18EE8 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -150,33 +308,30 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				869748AF679672DB226B88CA773BD968 /* Development Pods */,
+				BB8D56FCD5C04B9B432CD581A0ECBBE0 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				0DE113FEFCBF49FF8DC0679E382AD032 /* Products */,
+				9A73F6B6FE931C4EE468BC417CA33876 /* Products */,
 				7CAD532D828A7B946B4276BEF3C18EE8 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		869748AF679672DB226B88CA773BD968 /* Development Pods */ = {
+		9A73F6B6FE931C4EE468BC417CA33876 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2CFA8D450F13B7976D70D5173A831FF7 /* ImageAdjusts */,
+				3459E6ACA0778029FBF7B26C6C4F1969 /* ImageAdjusts.bundle */,
+				32376FE3F3AE627E126EF460DAC9188F /* ImageAdjusts.framework */,
+				A4347864181A1E01F63810CA6B10F5A8 /* Pods_ImageAdjusts_Example.framework */,
+				D1108EC1922E0FF498D2BDF1476F5140 /* Pods_ImageAdjusts_Tests.framework */,
 			);
-			name = "Development Pods";
+			name = Products;
 			sourceTree = "<group>";
 		};
-		953C3929961CBDCEAE5D4C53A370E881 /* Support Files */ = {
+		BB8D56FCD5C04B9B432CD581A0ECBBE0 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FD7C40C0C5B10824D978EE0195F8DAE8 /* ImageAdjusts.modulemap */,
-				5572178704613FDC738DED11ACFF8647 /* ImageAdjusts.xcconfig */,
-				F910EAA35E8C4A1D67D4271E4CDF1851 /* ImageAdjusts-dummy.m */,
-				C2E046D4D51A577EE306A4C70CDDB652 /* ImageAdjusts-prefix.pch */,
-				BCED8C092803F74B494E119B01BE7226 /* ImageAdjusts-umbrella.h */,
-				9CE605EE7FD2F8E8969502BCDEFD2BDF /* Info.plist */,
+				10EE4A730DAAC15557E5E4329F3C18F0 /* ImageAdjusts */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ImageAdjusts";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -224,14 +379,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A60D2401DB85A0FC7D2F3448A02CA4AD /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D2E26BF246648726DC9101B6F275AACB /* ImageAdjusts-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AACFB0A70CDEA821186565E54B2F1F05 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -240,24 +387,51 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EF2F7282C1CE2614D335D874CD38F44C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F2877395B9AC826FD66539772F59229 /* ImageAdjusts-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		651F5F475233FECC73E3068050D7FF82 /* ImageAdjusts */ = {
+		957A6C4B82077CA471CA9BCD13CC918C /* ImageAdjusts-ImageAdjusts */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F2CE36B8F699447034DBA3A1B268CE34 /* Build configuration list for PBXNativeTarget "ImageAdjusts" */;
+			buildConfigurationList = D864FB1DD882B7B0C83E1C4CA21EFD80 /* Build configuration list for PBXNativeTarget "ImageAdjusts-ImageAdjusts" */;
 			buildPhases = (
-				3B3D19F6283EB7E586718EBBBB802B6E /* Sources */,
-				23C9BB9B0953818421C03AE77CF04CF4 /* Frameworks */,
-				A60D2401DB85A0FC7D2F3448A02CA4AD /* Headers */,
+				F764A47CB6C0F0CC41A32EE57ABEF662 /* Sources */,
+				B8614FBD79B32CE704A64C307FFD40D8 /* Frameworks */,
+				55DB72931AAE9C8A96C21E81108377D9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = "ImageAdjusts-ImageAdjusts";
+			productName = "ImageAdjusts-ImageAdjusts";
+			productReference = 3459E6ACA0778029FBF7B26C6C4F1969 /* ImageAdjusts.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		C3D995A74ACB36CB7A8C05E4E4B238B9 /* ImageAdjusts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 748772C9F63A4173486F7DCB7D84E30D /* Build configuration list for PBXNativeTarget "ImageAdjusts" */;
+			buildPhases = (
+				99085946E8AA8CCC80528B54F5E17D82 /* Sources */,
+				C63A810B9F1ECF3C5C34AA5803033797 /* Frameworks */,
+				2C92B31093F7CDDA663C9D1D2811C3AB /* Resources */,
+				EF2F7282C1CE2614D335D874CD38F44C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0454BE30D4A1BDAAAAF4DD6A1A4A1A76 /* PBXTargetDependency */,
+			);
 			name = ImageAdjusts;
 			productName = ImageAdjusts;
-			productReference = A912D4E100FBA0AC9AAD950782C059BE /* ImageAdjusts.framework */;
+			productReference = 32376FE3F3AE627E126EF460DAC9188F /* ImageAdjusts.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		ECB9433C86A4E5963D6C714B5E17A998 /* Pods-ImageAdjusts_Tests */ = {
@@ -274,7 +448,7 @@
 			);
 			name = "Pods-ImageAdjusts_Tests";
 			productName = "Pods-ImageAdjusts_Tests";
-			productReference = 58A3F4FC8F11797F1D381602FCAB2185 /* Pods_ImageAdjusts_Tests.framework */;
+			productReference = D1108EC1922E0FF498D2BDF1476F5140 /* Pods_ImageAdjusts_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		ED156BC3C3203CCEC8D91266C9A1F5D3 /* Pods-ImageAdjusts_Example */ = {
@@ -292,7 +466,7 @@
 			);
 			name = "Pods-ImageAdjusts_Example";
 			productName = "Pods-ImageAdjusts_Example";
-			productReference = 4CDF0E1F9802BACB6EA29AE75994FF35 /* Pods_ImageAdjusts_Example.framework */;
+			productReference = A4347864181A1E01F63810CA6B10F5A8 /* Pods_ImageAdjusts_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -303,11 +477,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
-				TargetAttributes = {
-					651F5F475233FECC73E3068050D7FF82 = {
-						LastSwiftMigration = 0830;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -317,16 +486,77 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 0DE113FEFCBF49FF8DC0679E382AD032 /* Products */;
+			productRefGroup = 9A73F6B6FE931C4EE468BC417CA33876 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				651F5F475233FECC73E3068050D7FF82 /* ImageAdjusts */,
+				C3D995A74ACB36CB7A8C05E4E4B238B9 /* ImageAdjusts */,
+				957A6C4B82077CA471CA9BCD13CC918C /* ImageAdjusts-ImageAdjusts */,
 				ED156BC3C3203CCEC8D91266C9A1F5D3 /* Pods-ImageAdjusts_Example */,
 				ECB9433C86A4E5963D6C714B5E17A998 /* Pods-ImageAdjusts_Tests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C92B31093F7CDDA663C9D1D2811C3AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71599F9DEA5CF8553E0DA34AC8E31BBD /* ImageAdjusts.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55DB72931AAE9C8A96C21E81108377D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CA9356B3E835D27832BE397D8E37B2D /* Brightness.png in Resources */,
+				A45D7A03013F73C43AECF601C05C320F /* Brightness@2x.png in Resources */,
+				9F42EC5EDBD0A3B81E858A4BE79C3B1D /* Brightness@3x.png in Resources */,
+				1774DD73F10945FF2042FAA6D20A3121 /* Close.png in Resources */,
+				54501BE46A3DFBF2ED4675324940DF04 /* Close@2x.png in Resources */,
+				53474AF60D723526E7E1AC2253D04678 /* Close@3x.png in Resources */,
+				71852E62FF78D474F5FD789548C994FB /* Contrast.png in Resources */,
+				4F1BEB89F3EDF36767BA31951DCEC8E9 /* Contrast@2x.png in Resources */,
+				B5A878D342093177A2D9D75C1598CF8B /* Contrast@3x.png in Resources */,
+				D878AD720E2123630A6867982FC0F7EE /* done.png in Resources */,
+				B3F6AFE6C81EF937D37B8804B344A2E9 /* done@2x.png in Resources */,
+				B92FB575008671B73C181227F7B9C79D /* done@3x.png in Resources */,
+				5F3EC706487DCAEA333995EE76A18E05 /* Exposure.png in Resources */,
+				0DFF59943D935EDD2C899BDB062AC96C /* Exposure@2x.png in Resources */,
+				83F767ED8505DE7CD2F8647F5831A01C /* Exposure@3x.png in Resources */,
+				B1EA02EFDDB184AE14DC984956E0966C /* Fade.png in Resources */,
+				A84CF642710C66A5F33C416E7EC5D66E /* Fade@2x.png in Resources */,
+				F1C46E3648DC1B5D3612AF3F48086229 /* Fade@3x.png in Resources */,
+				90B9A39DA3855E038C1C4FA2E6D57437 /* formatRotate.png in Resources */,
+				E2C200A53DAAC912D6B179AAEB73D068 /* formatRotate@2x.png in Resources */,
+				C82F1CE9A1675E8B603237B169C95D41 /* formatRotate@3x.png in Resources */,
+				CEB1606E5C45DD978D8603BDA73DE5FB /* Highlights.png in Resources */,
+				3006E08E0A541D7621C42F4074E5D2A2 /* Highlights@2x.png in Resources */,
+				A396B8EE65DBDD1A15E5D2B397912E5C /* Highlights@3x.png in Resources */,
+				952645576842209439AFAE21803DEEED /* Saturation.png in Resources */,
+				DF4AA8F20B3D8E4ACABF878228F29397 /* Saturation@2x.png in Resources */,
+				58FEF31C01B77242CD0385B2C28C960C /* Saturation@3x.png in Resources */,
+				5ED308B337A01C0A4D5CA96203053157 /* Shadows.png in Resources */,
+				EE6A942968593BB89202594E1AEABB1C /* Shadows@2x.png in Resources */,
+				DAE846D54966FCAA8A4E27BD1B50FD0C /* Shadows@3x.png in Resources */,
+				4F0B63BC039A773E5CF478CCD4D4701F /* Sharpness.png in Resources */,
+				CB477756CCC460660568B01BEDEE25A8 /* Sharpness@2x.png in Resources */,
+				DFB6C4CA0C4A47BFC7D4BA2B215FE3F0 /* Sharpness@3x.png in Resources */,
+				5EBC8DB67D11FC6AFA6E55707AEDCD96 /* Tint.png in Resources */,
+				05D35EA83D195F9DC1DB4456561C919C /* Tint@2x.png in Resources */,
+				E5806C5E74F84E0AD1D856BBA8ADBCEF /* Tint@3x.png in Resources */,
+				4B9C50103C65D8A5B6BAEE3D163B47B0 /* Vibrance.png in Resources */,
+				74ECE146B59CE02CA40A43309DA5970B /* Vibrance@2x.png in Resources */,
+				7328F1BB840CDAEDC8C5632DD7CEE63E /* Vibrance@3x.png in Resources */,
+				3AC92831DACC00C4E16831FECD6115EA /* Warmth.png in Resources */,
+				0C3DC3E03D6FF13497DC2ECC4BA9B94A /* Warmth@2x.png in Resources */,
+				57006C8EF47A5A5F6E33BD725AD11206 /* Warmth@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0AB6B2A4C013DCF36208C74BE6FE3E4A /* Sources */ = {
@@ -334,16 +564,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FCA7130D33BAD6D6186E17F6296D7DA /* Pods-ImageAdjusts_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3B3D19F6283EB7E586718EBBBB802B6E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				931FE1C37DB79FBCE3B2813BAE5FB7A4 /* ImageAdjusts-dummy.m in Sources */,
-				96FB419F1F55957600BDFB30 /* AdjustImageView.swift in Sources */,
-				96FB41A01F55957600BDFB30 /* ImageAdjustView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,18 +575,60 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		99085946E8AA8CCC80528B54F5E17D82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22461D5FA341B945A1CD6B9540AF0B29 /* AdjustImageView.swift in Sources */,
+				2EAEBB1CB646C0C8BBC8591BFCBD3B2E /* AdjustImageView.xib in Sources */,
+				A5F09FFC158BA4D71A728D06700CA9B8 /* ImageAdjusts-dummy.m in Sources */,
+				11FE65DE4F229917C6974766102ABF3A /* ImageAdjustView.swift in Sources */,
+				43CA4C0F47AE622BECD26037B880BBFA /* ImageAdjustView.xib in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F764A47CB6C0F0CC41A32EE57ABEF662 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		0454BE30D4A1BDAAAAF4DD6A1A4A1A76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ImageAdjusts-ImageAdjusts";
+			target = 957A6C4B82077CA471CA9BCD13CC918C /* ImageAdjusts-ImageAdjusts */;
+			targetProxy = 99DC03A6496A747D6EE0E547343DC476 /* PBXContainerItemProxy */;
+		};
 		4C5FBB053A5F44B09E69CED3DCA48EEE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ImageAdjusts;
-			target = 651F5F475233FECC73E3068050D7FF82 /* ImageAdjusts */;
+			target = C3D995A74ACB36CB7A8C05E4E4B238B9 /* ImageAdjusts */;
 			targetProxy = 9479527635EE9BBAB064DC5CA082DECF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		063423F54E4ACAD49CFE459C7736C71C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE7A1BFE7AE58A3C7827184BC4BF6C37 /* ImageAdjusts.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ImageAdjusts";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/ImageAdjusts/ResourceBundle-ImageAdjusts-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = ImageAdjusts;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 		40DD9F767D29F42375D0DA82C8E18783 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0BEC2F84E565E1BB00D4572283E6179C /* Pods-ImageAdjusts_Example.debug.xcconfig */;
@@ -478,6 +740,41 @@
 			};
 			name = Debug;
 		};
+		4CD94085A5E062E2FEC2B3995970AE51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE7A1BFE7AE58A3C7827184BC4BF6C37 /* ImageAdjusts.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ImageAdjusts/ImageAdjusts-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ImageAdjusts/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ImageAdjusts/ImageAdjusts.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ImageAdjusts;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		59FF0C6D9D546A0BF79AAF6C6D8D29FF /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 246A6A5D1B6298E58C2D1E1871C93D45 /* Pods-ImageAdjusts_Example.release.xcconfig */;
@@ -516,11 +813,10 @@
 			};
 			name = Release;
 		};
-		63D323366B5634642A45648A2C4C939A /* Release */ = {
+		5F8EC1BEC2D9F50E3F06A84BAFE04ADB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5572178704613FDC738DED11ACFF8647 /* ImageAdjusts.xcconfig */;
+			baseConfigurationReference = CE7A1BFE7AE58A3C7827184BC4BF6C37 /* ImageAdjusts.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -536,7 +832,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/ImageAdjusts/ImageAdjusts-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ImageAdjusts/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ImageAdjusts/ImageAdjusts.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -601,41 +897,22 @@
 			};
 			name = Debug;
 		};
-		AD8B9A1A2A133C9F5B3E97B09ACA12AC /* Debug */ = {
+		BD044F85977E52CD45A08A8CA73363FB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5572178704613FDC738DED11ACFF8647 /* ImageAdjusts.xcconfig */;
+			baseConfigurationReference = CE7A1BFE7AE58A3C7827184BC4BF6C37 /* ImageAdjusts.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ImageAdjusts";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ImageAdjusts/ImageAdjusts-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ImageAdjusts/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ImageAdjusts/ImageAdjusts.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				INFOPLIST_FILE = "Target Support Files/ImageAdjusts/ResourceBundle-ImageAdjusts-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_NAME = ImageAdjusts;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
-			name = Debug;
+			name = Release;
 		};
 		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -693,6 +970,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		748772C9F63A4173486F7DCB7D84E30D /* Build configuration list for PBXNativeTarget "ImageAdjusts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CD94085A5E062E2FEC2B3995970AE51 /* Debug */,
+				5F8EC1BEC2D9F50E3F06A84BAFE04ADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		79657AA72F5617CCD799E1C789A9F435 /* Build configuration list for PBXNativeTarget "Pods-ImageAdjusts_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -702,20 +988,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		D864FB1DD882B7B0C83E1C4CA21EFD80 /* Build configuration list for PBXNativeTarget "ImageAdjusts-ImageAdjusts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				063423F54E4ACAD49CFE459C7736C71C /* Debug */,
+				BD044F85977E52CD45A08A8CA73363FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		E14A4D64644DA2CD8950DF428FAB22A3 /* Build configuration list for PBXNativeTarget "Pods-ImageAdjusts_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				40DD9F767D29F42375D0DA82C8E18783 /* Debug */,
 				59FF0C6D9D546A0BF79AAF6C6D8D29FF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F2CE36B8F699447034DBA3A1B268CE34 /* Build configuration list for PBXNativeTarget "ImageAdjusts" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AD8B9A1A2A133C9F5B3E97B09ACA12AC /* Debug */,
-				63D323366B5634642A45648A2C4C939A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

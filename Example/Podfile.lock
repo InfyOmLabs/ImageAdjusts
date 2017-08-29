@@ -1,5 +1,5 @@
 PODS:
-  - ImageAdjusts (0.1.4)
+  - ImageAdjusts (0.1.5)
 
 DEPENDENCIES:
   - ImageAdjusts (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  ImageAdjusts: b704a179e4bdf6f51b0bf18d659f124c7713819a
+  ImageAdjusts: 682c0732e327b3c3110647da07a1f4b9882db2a5
 
 PODFILE CHECKSUM: f0ab69cfe29e82c7319aaed63cb566045b09c9cb
 

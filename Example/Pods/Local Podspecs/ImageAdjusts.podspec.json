@@ -1,6 +1,6 @@
 {
   "name": "ImageAdjusts",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "summary": "A short description of ImageAdjusts.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/Dhvl-Golakiya/ImageAdjusts",
@@ -13,10 +13,15 @@
   },
   "source": {
     "git": "https://github.com/Dhvl-Golakiya/ImageAdjusts.git",
-    "tag": "0.1.4"
+    "tag": "0.1.5"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "ImageAdjusts/Classes/**/*"
+  "source_files": "ImageAdjusts/Classes/**/*",
+  "resource_bundles": {
+    "ImageAdjusts": [
+      "ImageAdjusts/Assets/*.png"
+    ]
+  }
 }
