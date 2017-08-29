@@ -53,7 +53,7 @@
 		96FB419B1F55957600BDFB30 /* AdjustImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AdjustImageView.swift; path = ImageAdjusts/Classes/AdjustImageView.swift; sourceTree = "<group>"; };
 		96FB419C1F55957600BDFB30 /* ImageAdjustView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageAdjustView.swift; path = ImageAdjusts/Classes/ImageAdjustView.swift; sourceTree = "<group>"; };
 		96FB419D1F55957600BDFB30 /* AdjustImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AdjustImageView.xib; path = ImageAdjusts/Classes/AdjustImageView.xib; sourceTree = "<group>"; };
-		96FB419E1F55957600BDFB30 /* ImageAdjustView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ImageAdjustView.xib; path = ImageAdjusts/Classes/ImageAdjustView.xib; sourceTree = "<group>"; };
+		96FB41A11F55A22F00BDFB30 /* ImageAdjustView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ImageAdjustView.xib; path = ImageAdjusts/Classes/ImageAdjustView.xib; sourceTree = "<group>"; };
 		9899CA6DF08F828B58ABB0157BC227EE /* Pods-ImageAdjusts_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImageAdjusts_Example-dummy.m"; sourceTree = "<group>"; };
 		9A4E86157739A750DB1CE898B81DED9A /* Pods-ImageAdjusts_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ImageAdjusts_Tests.modulemap"; sourceTree = "<group>"; };
 		9CE605EE7FD2F8E8969502BCDEFD2BDF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -112,7 +112,7 @@
 				96FB419B1F55957600BDFB30 /* AdjustImageView.swift */,
 				96FB419D1F55957600BDFB30 /* AdjustImageView.xib */,
 				96FB419C1F55957600BDFB30 /* ImageAdjustView.swift */,
-				96FB419E1F55957600BDFB30 /* ImageAdjustView.xib */,
+				96FB41A11F55A22F00BDFB30 /* ImageAdjustView.xib */,
 				953C3929961CBDCEAE5D4C53A370E881 /* Support Files */,
 			);
 			name = ImageAdjusts;
