@@ -36,7 +36,7 @@ You can adjust all properties of image like:
 
 ## Requirements
 
-Require iOS 8.0 and above.
+Require iOS 9.0 and above.
 
 ## Installation
 
