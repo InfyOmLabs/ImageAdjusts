@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ImageAdjusts'
-  s.version          = '0.1.0'
+  s.version          = '0.1.2'
   s.summary          = 'A short description of ImageAdjusts.'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Dhvl-Golakiya' => 'dhvl.golakiya@gmail.com' }
-  s.source           = { :git => 'https://github.com/Dhvl-Golakiya/ImageAdjust.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Dhvl-Golakiya/ImageAdjusts.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<Dhvl_Golakiya>'
 
   s.ios.deployment_target = '8.0'
