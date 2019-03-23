@@ -52,15 +52,35 @@ class ImageAdjustView : UIView, UIGestureRecognizerDelegate {
     
     static func create(image : UIImage) -> ImageAdjustView {
         let selectView =  Bundle.main.loadNibNamed("ImageAdjustView", owner: self, options: nil)?[0] as! ImageAdjustView
-        selectView.viewFrame = CGRect(x: 0, y: 0, width: getScreenWidth(), height: getScreenHeight())
+        let window = UIApplication.shared.keyWindow
+        if #available(iOS 11.0, *) {
+            let topPadding = window?.safeAreaInsets.top
+            let bottomPadding = window?.safeAreaInsets.bottom
+            selectView.viewFrame = CGRect(x: 0, y: topPadding!, width: getScreenWidth(), height:
+                getScreenHeight() - (topPadding! + bottomPadding!))
+        } else {
+            selectView.viewFrame = CGRect(x: 0, y: 0, width: getScreenWidth(), height: getScreenHeight())
+        }
         selectView.mainImage = image
         selectView.didInit()
+        if #available(iOS 11.0, *) {
+            let topPadding = window?.safeAreaInsets.top
+            let bottomPadding = window?.safeAreaInsets.bottom
+            selectView.frame = CGRect(x: 0, y: getScreenHeight(), width: getScreenWidth(), height: getScreenHeight() - (topPadding! + bottomPadding!))
+        } else {
+            selectView.frame = CGRect(x: 0, y: getScreenHeight(), width: getScreenWidth(), height: getScreenHeight())
+        }
+        window!.addSubview(selectView)
         
-        let window = UIApplication.shared.keyWindow!
-        selectView.frame = CGRect(x: 0, y: getScreenHeight(), width: getScreenWidth(), height: getScreenHeight())
-        window.addSubview(selectView)
         UIView.animate(withDuration: 0.35) {
-            selectView.frame = CGRect(x: 0, y: 0, width: getScreenWidth(), height: getScreenHeight())
+            if #available(iOS 11.0, *) {
+                let topPadding = window?.safeAreaInsets.top
+                let bottomPadding = window?.safeAreaInsets.bottom
+                selectView.frame = CGRect(x: 0, y: topPadding!, width: getScreenWidth(), height:
+                    getScreenHeight() - (topPadding! + bottomPadding!))
+            } else {
+                selectView.frame = CGRect(x: 0, y: 0, width: getScreenWidth(), height: getScreenHeight())
+            }
             selectView.setAllData()
         }
         return selectView
@@ -77,7 +97,7 @@ class ImageAdjustView : UIView, UIGestureRecognizerDelegate {
         self.backImageView.addGestureRecognizer(taptouchGesture)
     }
     
-    func longPressGesture(pinchGesture: UILongPressGestureRecognizer) {
+    @objc func longPressGesture(pinchGesture: UILongPressGestureRecognizer) {
         if(pinchGesture.state == .began) {
             self.colorImageView.isHidden = false
         }

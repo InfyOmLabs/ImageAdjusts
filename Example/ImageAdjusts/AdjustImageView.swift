@@ -120,7 +120,7 @@ class AdjustImageView : UIView {
 
 extension UIImage {
     func tintedImage() -> UIImage {
-        return self.withRenderingMode(UIImageRenderingMode.alwaysTemplate)
+        return self.withRenderingMode(UIImage.RenderingMode.alwaysTemplate)
     }
 }
 
